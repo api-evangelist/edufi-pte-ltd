@@ -1,8 +1,27 @@
 aid: edufi-pte-ltd
 name: EDUFI PTE. LTD
-description: EDUFI PTE. LTD is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EduFi (EDUFI PTE. LTD) is a Singapore-incorporated education-financing fintech operating Pakistan's
+  first Study Now, Pay Later (SNPL) digital platform, with expansion into Saudi Arabia and Oman. The
+  Shariah-approved platform lets parents and students finance private schooling, higher education, and
+  international student loans through quick, collateral-free approvals with direct disbursement to
+  educational institutes and convenient monthly installments. EduFi also provides partner educational
+  institutes a free ERP system and subsidized SNPL for their students, and works with financial
+  institutions to fund receivables. Backed by 500 Global. This profile is maintained by API Evangelist;
+  EduFi publishes a consumer marketing and application surface but no public developer/API program.
 url: https://raw.githubusercontent.com/api-evangelist/edufi-pte-ltd/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.edufi.tech/wp-content/uploads/2022/03/EduFi_logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Education
+- Lending
+- Financial Services
+- Study Now Pay Later
+- Islamic Finance
+- Pakistan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/edufi-pte-ltd-domain-security.yml
 - type: Website
   url: https://edufi.tech
+- type: Blog
+  url: https://www.edufi.tech/news/
+- type: Support
+  url: https://www.edufi.tech/contact/
+- type: TermsOfService
+  url: https://www.edufi.tech/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://www.edufi.tech/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
