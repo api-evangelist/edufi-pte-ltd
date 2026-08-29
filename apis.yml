@@ -10,6 +10,17 @@ description: >-
   institutions to fund receivables. Backed by 500 Global. This profile is maintained by API Evangelist;
   EduFi publishes a consumer marketing and application surface but no public developer/API program.
 url: https://raw.githubusercontent.com/api-evangelist/edufi-pte-ltd/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
